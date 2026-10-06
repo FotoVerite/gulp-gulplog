@@ -69,6 +69,16 @@ If the first argument is a string, all arguments are passed to node's
 
 If the first argument is not a string, all arguments will be emitted directly.
 
+## Strict No LLM / No AI Policy
+
+No LLMs for issues.
+
+No LLMs for patches / pull requests.
+
+No LLMs for comments on the bug tracker, including translation.
+
+English is encouraged, but not required. You are welcome to post in your native language and rely on others to have their own translation tools of choice to interpret your words.
+
 ## License
 
 MIT
@@ -78,14 +88,9 @@ MIT
 [npm-url]: https://npmjs.org/package/gulplog
 [npm-image]: https://img.shields.io/npm/v/gulplog.svg?style=flat-square
 
-[ci-url]: https://github.com/gulpjs/gulplog/actions?query=workflow:dev
-[ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/gulplog/dev.yml?branch=master&style=flat-square
+[ci-url]: https://github.com/gulpjs/gulplog/actions/workflows/dev.yml
+[ci-image]: https://img.shields.io/github/actions/workflow/status/gulpjs/gulplog/dev.yml?style=flat-square
 
 [coveralls-url]: https://coveralls.io/r/gulpjs/gulplog
-[coveralls-image]: https://img.shields.io/coveralls/gulpjs/gulplog/master.svg?style=flat-square
-<!-- prettier-ignore-end -->
-
-<!-- prettier-ignore-start -->
-[gulp-cli-url]: https://github.com/gulpjs/gulp-cli
-[util-format-url]: https://nodejs.org/docs/latest/api/util.html#util_util_format_format
+[coveralls-image]: https://img.shields.io/coveralls/gulpjs/gulplog/main.svg?style=flat-square
 <!-- prettier-ignore-end -->
