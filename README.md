@@ -13,19 +13,19 @@ Logger for gulp and gulp plugins
 ## Usage
 
 ```js
-var logger = require('gulplog');
+var logger = require("gulplog");
 
 // logs strings
-logger.debug('The MOST verbose!');
-logger.info('Some important info');
-logger.warn('All the warnings to you');
-logger.error('OH NO! SOMETHING HAPPENED!');
+logger.debug("The MOST verbose!");
+logger.info("Some important info");
+logger.warn("All the warnings to you");
+logger.error("OH NO! SOMETHING HAPPENED!");
 
 // supports util.format!
-logger.info('%s style!', 'printf');
+logger.info("%s style!", "printf");
 
 // log anything
-logger.debug({ my: 'obj' });
+logger.debug({ my: "obj" });
 logger.info([1, 2, 3]);
 ```
 
